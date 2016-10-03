@@ -30,7 +30,8 @@ ems:
 
       html {
         font-size: 1.125em;
-        padding:
+        padding: .75em .375em .75em .375em;
+        /*Order is top, right, bottom, left*/
       }
 
 4. Consider the following CSS. Assuming a browser with its base size at 1em = 16px, how big is h2,
