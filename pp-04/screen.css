@@ -115,3 +115,32 @@ h2 {
   line-height: 0.9398128206em; /* ~ 24px @ 25.537px/em */
   padding-bottom: 0.9398128206em;
 }
+
+/* ========== Modules ========== */
+
+/* Header */
+header {
+  padding-top: 2.75em; /* 55px @ 20px/em */
+  padding-bottom: 1.4em; /* 28px @ 20px/em */
+}
+
+/* Footer */
+
+footer {
+  padding-top: 3.8em; /* ~ 76px @ 20px/em */
+}
+small,
+.tagline,
+.fineprint,
+.button {
+  font-weight: 200;
+  color: #998f8b;
+  display: block;
+}
+.preview small {
+  color: #594E51;
+}
+.label .button {
+  font-size: 0.75em; 
+  text-transform: uppercase;
+}
