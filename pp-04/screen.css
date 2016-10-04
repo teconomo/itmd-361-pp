@@ -144,3 +144,58 @@ small,
   font-size: 0.75em; 
   text-transform: uppercase;
 }
+
+/* ========== State ========== */
+
+.hasjs .extended {
+  display: none;
+}
+.is-visible .extended {
+  display: block;
+}
+
+/* Media Queries */
+
+/* @375px */
+
+@media screen and (min-width: 23.4375em) {
+  header,
+  footer,
+  .primary,
+  #instructor,
+  #links {
+    padding-right: 5%;
+    padding-left: 10%;
+  }
+  .tagline,
+  .fineprint {
+    width: 50%;
+  }
+
+/* @750px */
+
+@media screen and (min-width: 46.875em) {
+  header,
+  footer,
+  .primary,
+  #instructor,
+  #links {
+    padding-right: 5%;
+    padding-left: 10%;
+  }
+  .tagline,
+  .fineprint {
+    width: 50%;
+  }
+
+/* 1000px */
+
+@media screen and (min-width: 62.5em) {
+  header,
+  footer,
+  .primary,
+  #instructor,
+  #links {
+    padding-right: 10%;
+    padding-left: 30%;
+  }
