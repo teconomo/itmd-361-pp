@@ -58,6 +58,60 @@ html {
 	color: #dedede;
 }
 body {
-  font-size: 1.2em;         /* ~ 20px base font size */
-  line-height: 1.2631578947em; /* ~ 24px base line height */
+  font-size: 1.25em;  /* ~ 20px base font size */
+  line-height: 1.2em; /* ~ 24px base line height */
+}
+b,
+strong {
+  font-weight: bold;
+}
+cite,
+em,
+i {
+  font-style: italic;
+}
+ins {
+  text-decoration: none;
+}
+
+/* --LINKS-- */
+
+a {
+  text-decoration: none;
+  color: #a7c3c9;
+  border-bottom: 0.05263157895em dotted;
+}
+.preview a {
+  color: #BA370B;
+}
+p {
+  padding-bottom: 1.2631578947em;
+}
+li {
+  padding-bottom: 0.6em; /* ~ 12px @ 20px/em */
+}
+ol,
+ul {
+  padding-bottom: 1.2631578947em;
+  margin-left: 1.2631578947em;
+}
+ul > li {
+  list-style-type: square;
+}
+ol > li {
+  list-style-type: decimal;
+}
+li ul,
+li ol {
+  padding-top: 0.6em;
+}
+h1 {
+  font-size: 1.8em; /* ~ 36px @ 20px/em */
+  line-height: 1.0663191256em; /* ~ 36px @ 33.761px/em */
+  padding-bottom: 0.3554397085em; /* ~ 12px @ 33.761px/em */
+}
+h2 {
+  font-size: 1.3440526316em; /* ~ 25.537px @ 19px/em */
+  line-height: 0.9398128206em; /* ~ 24px @ 25.537px/em */
+  padding-bottom: 0.9398128206em;
 }
