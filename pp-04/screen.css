@@ -26,5 +26,22 @@ html {
 	text-size-adjust: 100%;
 }
 
+/* HTML5 Elements as CSS Blocks */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+	display: block;
+}
 
 /* ===== BASE STYLES ===== */
